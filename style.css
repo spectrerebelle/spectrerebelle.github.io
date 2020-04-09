@@ -7,10 +7,11 @@ body {
 }
 
 /* Style the header */
-.header {
+header {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
 

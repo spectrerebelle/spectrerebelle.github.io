@@ -23,7 +23,6 @@ body {
 /* Create three unequal columns that sits next to each other */
 .column {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Left and right column */
@@ -44,5 +43,6 @@ body {
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }

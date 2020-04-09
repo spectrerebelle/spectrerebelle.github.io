@@ -17,6 +17,7 @@ body {
   height: 100%;
   width: 220px;
   background:url(img/marble-base-01.jpg);
+  background-repeat: no-repeat;
   display: -webkit-flex;
   display: flex;
   z-index: 1;
@@ -61,14 +62,14 @@ body {
   text-shadow: 1px 1px black;
 }
 
-.apoio {
+.row {
   margin-left: 13%;
   padding-left: 5%;
   display: -webkit-flex;
   display: flex;
 }
 
-.apoio img {
+.row img {
   margin: 0.7px;
   clear: both;
   display: -webkit-flex;
@@ -86,3 +87,7 @@ footer {
   display: flex;
 }
 
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;

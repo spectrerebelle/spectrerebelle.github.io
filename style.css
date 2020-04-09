@@ -8,11 +8,11 @@ body {
 
 /* Style the header */
 header {
-  color: #2dbd51;
   padding: 30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
+  color: #2dbd51;
 }
 
 div.gallery {

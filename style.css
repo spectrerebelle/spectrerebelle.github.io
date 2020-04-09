@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(img/MAQ-COST-LOGO-mini.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 220px;
+  background:url(img/marble-base-01.jpg);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color:rgb(206, 134, 135);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 6px;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color:rgb(183, 143, 206);
+}
+
+/* Style the content */
+.content {
+  margin-left: 260px;
+  padding-left: 20px;
+}
+
+.content h2 {
+  color:rgb(204, 113, 115);
+  text-shadow: 1px 1px black;
+}
+
+.content p {
+  color:rgb(221, 126, 127);
+  text-shadow: 1px 1px black;
+}
+
+.apoio {
+  margin-left: 13%;
+  padding-left: 5%;
+}
+
+.apoio img {
+  margin: 0.7px;
+  clear: both;
+
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  float: inline-end;
+  margin-inline-end: -190px;
+  clear: both;
+}
+

@@ -12,8 +12,12 @@ header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
-  color: #2dbd51;
 }
+
+header h2 {
+  color: yellowgreen;
+}
+
 
 div.gallery {
   border: 1px solid #ccc;

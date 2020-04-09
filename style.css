@@ -15,7 +15,7 @@ header {
 }
 
 nav { 
-  background-color: rgb(128, 226, 158); margin-bottom: 2px;}
+  background-color: rgb(128, 226, 158); margin-bottom: 6px;}
      nav ul { list-style:none; padding:2px; text-align: center; }
      nav ul li { display:inline-block; }
      nav ul li a { font-size: 1.3em; text-decoration: none; color: #FFF; padding: 16px }

@@ -14,10 +14,12 @@ header {
   font-size: 35px;
 }
 
- h2 {
-  color: yellowgreen;
-}
-
+nav { 
+  background-color: rgb(128, 226, 158) }
+     nav ul { list-style:none; margin:0; padding:2px; text-align: center; }
+     nav ul li { display:inline-block; }
+     nav ul li a { font-size: 1.3em; text-decoration: none; color: #FFF; padding: 16px }
+     nav ul li a:hover { background-color: rgb(122, 115, 111) }
 
 div.gallery {
   border: 1px solid #ccc;

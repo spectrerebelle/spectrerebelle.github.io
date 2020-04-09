@@ -18,8 +18,6 @@ body {
   width: 220px;
   background:url(img/marble-base-01.jpg);
   background-repeat: no-repeat;
-  display: -webkit-flex;
-  display: flex;
   z-index: 1;
   top: 0;
   left: 0;
@@ -36,8 +34,6 @@ body {
   padding: 6px;
   text-decoration: none;
   text-shadow: 1px 1px black;
-  display: -webkit-flex;
-  display: flex
 }
 
 /* Change color on hover */
@@ -72,8 +68,6 @@ body {
 .row img {
   margin: 0.7px;
   clear: both;
-  display: -webkit-flex;
-  display: flex;
 
 }
 

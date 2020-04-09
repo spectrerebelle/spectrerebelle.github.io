@@ -83,5 +83,5 @@ footer {
 
 @media (max-width: 600px) {
   .row {
-    -webkit-flex-direction: column;
+    -webkit-flex-direction: row;
     flex-direction: row;}}

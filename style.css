@@ -34,7 +34,8 @@ body {
   padding: 6px;
   text-decoration: none;
   text-shadow: 1px 1px black;
-  display: block;
+  display: -webkit-flex;
+  display: flex
 }
 
 /* Change color on hover */
@@ -62,11 +63,15 @@ body {
 .apoio {
   margin-left: 13%;
   padding-left: 5%;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .apoio img {
   margin: 0.7px;
   clear: both;
+  display: -webkit-flex;
+  display: flex;
 
 }
 
@@ -76,5 +81,7 @@ footer {
   float: inline-end;
   margin-inline-end: -190px;
   clear: both;
+  display: -webkit-flex;
+  display: flex;
 }
 

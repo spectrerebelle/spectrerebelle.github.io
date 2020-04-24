@@ -8,17 +8,17 @@ body {
 
 /* Style the header */
 header {
-  padding: 30px;
+  padding: 8px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
 
 nav { 
-  background-color: rgb(128, 226, 158); margin-bottom: 6px;}
-     nav ul { list-style:none; padding:2px; text-align: center; }
+  background-color: rgb(128, 226, 158); margin-bottom: 1px;}
+     nav ul { list-style:none; padding:1px; text-align: center; }
      nav ul li { display:inline-block; }
-     nav ul li a { font-size: 1.3em; text-decoration: none; color: #FFF; padding: 16px }
+     nav ul li a { font-size: 1.3em; text-decoration: none; color: #FFF; padding: 8px }
      nav ul li a:hover { background-color: rgb(23, 199, 53) }
 
 div.gallery {
@@ -37,10 +37,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .responsive {

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Monserrat', sans-serif;
+  color: #505962;
+}
+
+/*---- Navigation ----*/
+.navbar {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(35, 224, 29, 0.507)!important;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #181b18;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==== MODELO ANTIGO DA GALERIA ====*/
+/* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* Style the header *
+header {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+nav { 
+  height: 40px;
+  background-color: rgb(128, 226, 158); margin-bottom: 1px;};
+     nav ul { list-style:none; padding:1px; text-align: center}
+     nav ul li { display:inline-flex; flex-direction: row; }
+     nav ul li a { font-size: 1.3em; text-decoration: none; color: #FFF; padding: 7px }
+     nav ul li a:hover { background-color: rgb(23, 199, 53); height: 40px; }
+
+div.gallery {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* Style the footer *
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+*/

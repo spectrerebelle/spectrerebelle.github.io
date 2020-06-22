@@ -1,4 +1,98 @@
-* {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==== MODELO ANTIGO DA GALERIA ====*/
+/* {
   box-sizing: border-box;
 }
 
@@ -6,7 +100,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Style the header */
+* Style the header *
 header {
   padding: 8px;
   text-align: center;
@@ -66,10 +160,11 @@ div.desc {
   clear: both;
 }
 
-/* Style the footer */
+* Style the footer *
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+*/

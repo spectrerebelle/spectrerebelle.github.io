@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
   overflow-x: hidden;
   color: #505962;
+  background-color: antiquewhite;
 }
 
 header {

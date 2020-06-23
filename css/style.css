@@ -70,6 +70,13 @@ footer a {
   color: antiquewhite;
 }
 
+footer a:hover {
+  text-decoration: none;
+  color: limegreen;
+  background-color: antiquewhite;
+}
+
+
 @media screen and (max-width:768px) {
   .one-third {
     width: 48%;

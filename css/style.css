@@ -1,33 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 body {
   overflow-x: hidden;
   font-family: 'Monserrat', sans-serif;
   color: #505962;
 }
 
-/*---- Navigation ----*/
-.navbar {
-  text-transform: capitalize;
-  font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background: rgba(35, 224, 29, 0.507)!important;
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.navbar-nav li {
-  padding-right: .7rem;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  padding-top: .8rem;
+.one-third {
+  width: 29%;
+  float: left;
+  margin: 2%;
 }
 
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #181b18;
+img:hover {
+  opacity: .8;
 }
+
+@media screen and (max-width:768px) {
+  .one-third {
+      width: 48%;
+      margin: 1%;
+
+  }
+}
+
+@media screen and (max-width:480px) {
+  .one-third {
+      width: 98%;
+      margin: 1%;
+      
+  }
+}
+
+
+
+
+
+
 
 
 

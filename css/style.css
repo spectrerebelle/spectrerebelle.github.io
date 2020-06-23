@@ -36,6 +36,23 @@ img:hover {
   opacity: .8;
 }
 
+footer {
+  width: 100%;
+  height: auto;
+  background-color: teal;
+  display: block;
+  float: right;
+}
+
+footer a {
+  margin-right: 50px;
+  float: right;
+  clear: both;
+  font-size: medium;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
 @media screen and (max-width:768px) {
   .one-third {
       width: 48%;
@@ -54,11 +71,6 @@ img:hover {
 
 
 
-footer {
-  margin-right: 100px;
-  display: block;
-  float: right;
-}
 
 
 

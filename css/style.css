@@ -5,12 +5,25 @@
   padding: 0;
 }
 
-
-
 body {
   overflow-x: hidden;
   font-family: 'Monserrat', sans-serif;
   color: #505962;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;
+  height: 100px;
+  width: auto;
+}
+
+header h2 {
+  margin: 50px 0  auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: antiquewhite;
 }
 
 #wrapper {
@@ -48,6 +61,7 @@ footer a {
   margin-right: 50px;
   float: right;
   clear: both;
+  font-family: 'Montserrat', sans-serif;
   font-size: medium;
   text-decoration: none;
   color: antiquewhite;
